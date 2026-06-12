@@ -8,6 +8,22 @@ This analysis identified a high burden of hospital readmissions driven primarily
 
 Regional and gender differences were relatively small, suggesting that system-level factors such as discharge planning, post-discharge follow-up, chronic disease management, and care coordination play a greater role in influencing readmissions. These findings highlight the need for targeted interventions focused on high-risk patients to improve outcomes and reduce avoidable hospital utilization.
 
+## My Role
+- Built SQL pipelines for data extraction and KPI calculation
+- Designed Power BI dashboards for executive, clinical, and demographic insights
+- Validated data quality (missing values, duplicates, KPI accuracy)
+- Delivered strategic recommendations to reduce readmissions
+
+## Key Insights
+- Chronic conditions drive 80%+ of readmissions
+- Prior admissions and comorbidity burden are the strongest predictors
+- Seasonal peaks (Jan, Dec) highlight need for proactive resource planning
+- Medicare patients show highest risk, requiring equity-focused interventions
+
+## Impact
+This project demonstrates my ability to translate healthcare data into actionable strategies, combining technical skills with business impact.
+
+
 1.  **Objective**
 
 To analyze hospital readmission patterns across clinical conditions, patient demographics, and geographic regions in order to identify high-risk groups and underlying system inefficiencies in post-discharge care.
@@ -126,8 +142,6 @@ CALCULATE(
 )
 
 **Dashboard Overview**
-
-The Power BI dashboard provides an interactive analysis of hospital readmission patterns across clinical conditions, patient demographics, and geographic regions. It is designed to support healthcare decision-making by highlighting key performance indicators and identifying high-risk areas contributing to readmissions.
 
 The dashboard is structured into three main analytical views: an executive overview displaying overall KPIs such as total patients and readmission rate, a clinical analysis section ranking conditions by readmission risk, and a demographic and regional view comparing performance across gender and regions. Interactive filters enable dynamic exploration of the data to uncover patterns and trends in hospital readmissions
 
@@ -294,11 +308,7 @@ Increase outpatient capacity during high-risk seasons.
 
 Introduce seasonal risk management strategies, focusing preventive efforts before winter when readmission risk is greatest.
 
-**Overall Executive Insight**
-
-The dashboard demonstrates that readmissions are influenced by temporal patterns, with higher utilization during specific months and seasons, while regional differences remain relatively small. These findings suggest that system-wide interventions focused on chronic disease management, discharge planning, and proactive seasonal preparedness are likely to have the greatest impact on reducing avoidable readmissions.
-
-**Overall Strategic Recommendation**
+**Strategic Recommendation**
 
 Healthcare organizations should establish an integrated readmission reduction program that combines standardized discharge processes, early post-discharge follow-up, chronic disease management, seasonal preparedness planning, and continuous performance monitoring across all regions to improve patient outcomes and reduce preventable hospital utilization.
 
@@ -312,9 +322,7 @@ Female: 52.71%
 
 Insight
 
-Female patients accounted for a slightly larger proportion of readmissions than male patients.
-
-The difference of approximately 5.4 percentage points suggests that both genders are substantially affected, although females contributed more to the overall readmission burden.
+Female patients accounted for a slightly larger proportion of readmissions than male patients
 
 **Possible Causes**
 
@@ -516,7 +524,7 @@ Symptom management rather than definitive treatment.
 
 Higher likelihood of disease recurrence.
 
-Surgical Treatment
+**Surgical Treatment**
 
 Postoperative complications.
 
@@ -524,7 +532,7 @@ Infection.
 
 Poor wound healing.
 
-Medical Treatment
+**Medical Treatment**
 
 Medication adherence issues.
 
@@ -532,7 +540,7 @@ Progressive disease.
 
 Need for ongoing monitoring.
 
-Interventional Treatment
+**Interventional Treatment**
 
 Procedure-related complications.
 
