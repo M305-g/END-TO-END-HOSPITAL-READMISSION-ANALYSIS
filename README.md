@@ -264,135 +264,41 @@ Treatment modality functions as a proxy for underlying clinical complexity. A ta
 
 **RISK AND ACTIONABLE DASHBOARD**
 
-1. Previous Readmissions vs Current Readmission
-   
-0	27.79%
-
-1	69.50%
-
-2	90.42%
-
-3	95.30%
-
-4	96.20%
-
-5	100.00%
+**1.Previous Readmissions vs Current Readmission**
 
 Insight
 
-Readmission risk increased dramatically as the number of previous readmissions increased.
-
-Patients with no previous readmissions had the lowest risk (27.79%).
-
-After just one previous readmission, the risk more than doubled.
-
-Patients with 4–5 previous readmissions had an extremely high likelihood of returning to the hospital.
-
-Previous readmission history appears to be one of the strongest predictors of future readmission.
+A strong monotonic relationship exists between prior readmission history and current readmission risk. Patients with no prior readmissions exhibit the lowest probability (27.79%), while risk increases sharply after the first readmission (69.50%) and escalates further with repeated episodes, reaching near-certain recurrence at 4–5 prior readmissions (≥96%). Prior utilization history emerges as the most powerful predictor of future readmission within the dataset.
 
 **Possible Causes**
 
-Poor control of chronic illnesses.
-
-Persistent underlying health problems.
-
-Multiple comorbidities.
-
-Failure of previous discharge interventions.
-
-Medication non-adherence.
-
-Limited access to outpatient follow-up.
-
-Social challenges affecting self-management.
-
-Functional decline from repeated hospitalizations.
+Repeated readmissions typically reflect unresolved clinical instability, including poorly controlled chronic diseases and progressive multimorbidity. Failure of prior discharge plans suggests gaps in care coordination and transitional care processes. Medication non-adherence, inadequate follow-up, and limited outpatient access contribute to disease recurrence and decompensation. Social determinants such as low support systems, financial constraints, and poor health literacy further compound self-management challenges. Cumulative hospital exposure may also lead to functional decline, increasing vulnerability to subsequent admissions.
 
 **Recommendations**
 
-Flag patients with ≥1 previous readmission as high-risk.
+Incorporate prior readmission count as a primary risk stratification variable in discharge planning workflows. Activate high-intensity case management for patients with even a single prior readmission. Ensure pre-arranged follow-up appointments before discharge and enforce early post-discharge contact within 48–72 hours. Assign dedicated care coordinators for patients with recurrent admissions to oversee continuity across inpatient and outpatient settings. Integrate social risk screening to address non-clinical drivers of repeated utilization.
 
-Implement intensive case management.
+**Strategic Implication**
 
-Schedule follow-up appointments before discharge.
-
-Conduct follow-up calls within 48–72 hours.
-
-Assign care coordinators to patients with repeated admissions.
-
-**Strategic Recommendation**
-
-Develop predictive models that automatically classify patients with prior readmissions as high priority for transitional care interventions.
+Readmission history should be treated as a core predictive signal for healthcare utilization risk stratification. Embedding prior admission data into automated risk models enables proactive transitional care targeting, which is likely to yield substantial reductions in recurrent hospitalizations and improve continuity of care for high-risk patients.
 
 **2. Discharge Disposition (Risk Score Distribution)**
+
+   Insight
    
-Discharge Destination	Readmission Rate
-
-Skilled Nursing Facility	92.80%
-
-Home Health	75.85%
-
-Home	34.07%
-
-Rehabilitation	34.00%
-
-Insight
-
-Patients discharged to skilled nursing facilities experienced the highest readmission rates.
-
-Home health patients also demonstrated elevated readmission risk.
-
-Patients discharged home or to rehabilitation centers had substantially lower readmission rates.
+Readmission risk varies markedly by discharge destination. Skilled nursing facility (SNF) discharges show the highest readmission rate (92.80%), followed by home health (75.85%). Patients discharged directly home (34.07%) or to rehabilitation services (34.00%) demonstrate substantially lower readmission rates. The pattern indicates that higher post-acute care dependence is associated with increased readmission risk, likely reflecting underlying clinical complexity rather than care setting alone.
 
 **Possible Causes**
 
-**Skilled Nursing Facility**
-
-Patients are often older and medically complex.
-
-Greater dependency and frailty.
-
-Multiple chronic illnesses.
-
-Higher disease severity.
-
-**Home Health**
-
-Ongoing healthcare needs requiring nursing support.
-
-Limited caregiver availability.
-
-Challenges adhering to treatment plans.
-
-**Home**
-
-Better functional status.
-
-Lower illness severity.
-
-Greater independence.
-
-**Rehabilitation**
-
-Structured therapy and monitoring.
-
-Improved recovery support.
-
-Better transition planning.
+Patients discharged to skilled nursing facilities typically represent a high-risk cohort characterized by advanced age, frailty, and multimorbidity, with limited physiological reserve. The elevated readmission rate may reflect disease severity rather than deficiencies in care alone. Home health patients often require ongoing medical support but may face gaps in caregiver availability, adherence challenges, and fragmented coordination between providers. Conversely, patients discharged home or to rehabilitation facilities generally have better functional status and more structured recovery pathways, contributing to lower readmission risk. Rehabilitation settings may also provide more intensive recovery oversight, reducing early deterioration.
 
 **Recommendations**
 
-Enhance communication between hospitals and skilled nursing facilities.
+Strengthen structured communication pathways between acute hospitals and skilled nursing facilities, including standardized handover protocols and shared care plans. Implement early post-discharge surveillance for SNF and home health populations, focusing on the first 7–14 days. Enhance clinical oversight in post-acute settings through regular multidisciplinary reviews. Improve alignment of discharge criteria with patient functional status and expected care needs to reduce mismatch between patient acuity and post-acute placement.
 
-Develop shared care plans.
+**Strategic Implication**
 
-Increase monitoring during the first weeks after discharge.
-
-Improve staff education in post-acute settings.
-
-**Strategic Recommendation**
-
-Establish integrated care pathways between hospitals and post-acute care facilities to reduce preventable readmissions among medically complex patients.
+Post-acute care transitions represent a critical vulnerability point in the care continuum. Integrated care pathways linking hospitals with SNFs and home health services, supported by coordinated monitoring and shared accountability frameworks, are essential for reducing preventable readmissions in high-dependency patient populations.
 
 **3. Comorbidity Burden**
    
@@ -418,37 +324,7 @@ Those with ten comorbidities were universally readmitted.
 
 Comorbidity burden is one of the strongest drivers of hospital utilization.
 
-**Possible Causes**
-
-Complex treatment regimens.
-
-Polypharmacy and drug interactions.
-
-Multiple specialist appointments.
-
-Difficulty coordinating care.
-
-Greater physiological vulnerability.
-
-Higher likelihood of complications.
-
-Functional limitations.
-
-**Recommendations**
-
-Prioritize patients with multiple comorbidities for enhanced care management.
-
-Use multidisciplinary teams.
-
-Perform comprehensive medication reviews.
-
-Develop individualized care plans.
-
-Coordinate specialist follow-up.
-
-**Strategic Recommendation**
-
-Implement integrated chronic disease management programs targeting patients with multiple coexisting conditions.
+**Possible Causes1                                                                                                                      )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 **4. Insurance Type**
    
