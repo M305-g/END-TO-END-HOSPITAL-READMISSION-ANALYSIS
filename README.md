@@ -4,25 +4,41 @@ This project analyzes hospital readmission patterns across multiple clinical con
 
 ## Executive Summary
 
-This analysis identified a high burden of hospital readmissions driven primarily by patients with chronic and complex conditions. The highest readmission rates were observed among patients with Sepsis, COPD, Heart Failure, Stroke, and Kidney Disease. Readmission risk increased substantially among patients with multiple comorbidities, prolonged hospital stays, repeated previous admissions, and those discharged to skilled nursing facilities.
+This project analyzed hospital readmission patterns using SQL for data processing and Power BI for visualization to identify clinical, demographic, and system-level drivers of avoidable readmissions.
 
-Regional and gender differences were relatively small, suggesting that system-level factors such as discharge planning, post-discharge follow-up, chronic disease management, and care coordination play a greater role in influencing readmissions. These findings highlight the need for targeted interventions focused on high-risk patients to improve outcomes and reduce avoidable hospital utilization.
+The analysis revealed that readmissions are predominantly driven by clinical complexity rather than demographic variation. High-acuity conditions such as sepsis, COPD, heart failure, stroke, and kidney disease accounted for the largest proportion of readmissions. Risk increased sharply with comorbidity burden, prior admissions, and conservative treatment pathways, indicating strong cumulative vulnerability effects.
+
+System-level factors such as discharge disposition and insurance status further influenced outcomes, with skilled nursing facilities and Medicare patients demonstrating the highest readmission rates. Seasonal peaks in January and December suggest additional pressure from environmental and healthcare system strain.
+
+Overall, the findings indicate that readmissions are largely predictable and concentrated within a small high-risk population, making them highly amenable to targeted intervention strategies.
+
+**KEY INSIGHTS (Refined)**
+
+Chronic and complex conditions account for the majority of readmissions.
+
+Prior readmission history is the strongest single predictor of future readmission.
+
+Comorbidity burden shows a near-exponential increase in risk.
+
+Conservative treatment and SNF discharge are associated with significantly higher risk profiles.
+
+Seasonal and regional variation is minimal compared to clinical drivers.
+
+Medicare and high-dependency patients represent the most vulnerable cohorts.
+
 
 ## My Role
 - Built SQL pipelines for data extraction and KPI calculation
+- 
 - Designed Power BI dashboards for executive, clinical, and demographic insights
+- 
 - Validated data quality (missing values, duplicates, KPI accuracy)
+- 
 - Delivered strategic recommendations to reduce readmissions
 
-## Key Insights
-- Chronic conditions drive 80%+ of readmissions
-- Prior admissions and comorbidity burden are the strongest predictors
-- Seasonal peaks (Jan, Dec) highlight need for proactive resource planning
-- Medicare patients show highest risk, requiring equity-focused interventions
+**Business Impact**
 
-## Impact
-This project demonstrates my ability to translate healthcare data into actionable strategies, combining technical skills with business impact.
-
+This analysis enables healthcare systems to prioritize high-risk patients, optimize discharge workflows, and reduce avoidable readmissions. Targeted interventions focused on comorbidity-heavy and previously admitted patients can significantly improve resource allocation and reduce inpatient costs.
 
 1.  **Objective**
 
