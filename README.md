@@ -301,108 +301,40 @@ Strengthen structured communication pathways between acute hospitals and skilled
 Post-acute care transitions represent a critical vulnerability point in the care continuum. Integrated care pathways linking hospitals with SNFs and home health services, supported by coordinated monitoring and shared accountability frameworks, are essential for reducing preventable readmissions in high-dependency patient populations.
 
 **3. Comorbidity Burden**
-   
-Number of Comorbidities	Readmission Rate
 
-2	38.95%
-
-4	75.05%
-
-6	96.18%
-
-8	97.14%
-
-10	100.00%
-
-Insight
-
-Readmission rates increased substantially with increasing comorbidity burden.
-
-Patients with six or more comorbidities experienced extremely high readmission rates.
-
-Those with ten comorbidities were universally readmitted.
-
-Comorbidity burden is one of the strongest drivers of hospital utilization.
-
-**Possible Causes1                                                                                                                      )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-
-**4. Insurance Type**
-   
-Insurance Type	Readmission Rate
-
-Medicare	95.36%
-
-Uninsured	76.11%
-
-Medicaid	70.59%
-
-Private	66.00%
-
-Insight
-
-Medicare beneficiaries had the highest readmission rates.
-
-Privately insured patients had the lowest rates.
-
-Uninsured and Medicaid patients experienced intermediate but still elevated readmission levels.
-
-Insurance status appears to influence healthcare utilization patterns.
+  Insight
+  
+There is a clear dose–response relationship between comorbidity burden and readmission risk. Patients with two comorbidities show relatively moderate risk (38.95%), but risk rises steeply with increasing burden, reaching 75.05% at four comorbidities and exceeding 96% at six or more. Patients with ten comorbidities demonstrate universal readmission, indicating extreme vulnerability. Comorbidity count functions as a dominant structural predictor of hospital utilization.
 
 **Possible Causes**
 
-**Medicare**
-
-Medicare populations are predominantly older adults.
-
-Higher prevalence of chronic diseases.
-
-Greater illness severity.
-
-Multiple comorbidities.
-
-Increased healthcare needs.
-
-**Uninsured**
-
-Delayed healthcare seeking.
-
-Limited access to preventive services.
-
-Financial barriers to medication adherence.
-
-Reduced outpatient follow-up.
-
-**Medicaid**
-
-Greater socioeconomic vulnerability.
-
-Transportation barriers.
-
-Higher burden of chronic illness.
-
-Limited health literacy.
-
-**Private Insurance**
-
-Better access to outpatient care.
-
-Greater continuity of care.
-
-Improved access to medications and specialists.
+Increasing comorbidity burden leads to clinical complexity characterized by overlapping disease pathways, polypharmacy, and higher risk of drug–drug and drug–disease interactions. These patients often require fragmented specialist care, increasing the likelihood of coordination failures across services. Physiological reserve is reduced, making even minor clinical insults sufficient to trigger decompensation. Functional impairment and dependency further limit self-management capacity, while cumulative treatment complexity increases the probability of incomplete adherence and adverse events.
 
 **Recommendations**
 
-Provide targeted discharge support for Medicare beneficiaries.
+Adopt stratified care pathways based on comorbidity thresholds, with high-intensity management for patients with four or more conditions. Implement structured multidisciplinary team reviews integrating physicians, pharmacists, and care coordinators. Conduct routine medication reconciliation at discharge and during follow-up visits. Develop individualized care plans that explicitly address interaction risks, monitoring schedules, and escalation pathways. Strengthen coordination between specialties to reduce fragmented decision-making.
 
-Strengthen care coordination for uninsured and Medicaid patients.
+**Strategic Implication**
 
-Link vulnerable patients with financial assistance programs.
+Comorbidity burden should be treated as a core structural determinant of readmission risk. Integrated chronic care models targeting multimorbidity are essential, as incremental increases in comorbid conditions correspond to disproportionately higher utilization and represent the highest-yield target for system-level intervention.                                   
 
-Improve access to community-based follow-up services.
+**4. Insurance Type**
+   
+Insight
 
-**Strategic Recommendation**
+Readmission rates vary significantly by insurance coverage. Medicare patients demonstrate the highest readmission rate (95.36%), while privately insured patients have the lowest (66.00%). Uninsured (76.11%) and Medicaid (70.59%) populations fall in the intermediate range but remain elevated relative to private insurance. The pattern indicates that both clinical vulnerability and structural access factors linked to insurance status contribute meaningfully to readmission risk.
 
-Healthcare organizations should adopt equity-focused readmission reduction strategies that address both clinical complexity and socioeconomic barriers affecting different insurance groups.
+**Possible Causes**
+
+Medicare patients are typically older with higher comorbidity burden, multimorbidity, and greater physiological fragility, which increases susceptibility to recurrent admissions. Uninsured individuals often face delayed care-seeking behavior, limited access to preventive services, and financial constraints affecting medication adherence and follow-up compliance. Medicaid populations experience compounded socioeconomic barriers, including transportation limitations, reduced health literacy, and fragmented access to consistent outpatient care. In contrast, privately insured patients benefit from stronger continuity of care, earlier intervention opportunities, and improved access to specialist services and medications, reducing preventable deterioration.
+
+**Recommendations**
+
+Introduce enhanced transitional care protocols specifically targeting Medicare patients, including early post-discharge review and proactive chronic disease monitoring. Strengthen linkage-to-care programs for uninsured and Medicaid patients, focusing on outpatient access, medication affordability, and appointment adherence. Embed social risk screening into discharge workflows to identify financial and logistical barriers early. Expand partnerships with community-based services to support follow-up care for vulnerable groups.
+
+**Strategic Implication**
+
+Insurance status functions as a composite proxy for both clinical complexity and socioeconomic disadvantage. Effective readmission reduction requires an equity-informed care model that integrates medical risk stratification with structured support for access barriers, particularly for Medicare, Medicaid, and uninsured populations.
 
 ## Conclusion
 
@@ -411,6 +343,8 @@ Hospital readmissions were strongly associated with disease severity, multimorbi
 
 
 **AUTHOR**
+
 MWANAHAMISI JUMA
 
+https://www.linkedin.com/in/mwanahamisi-juma-65a8a5412/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMKdeZjcmQwiH8aa3SF1gVQ%3D%3D
 
